@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class TempUI : MonoBehaviour
 {
     [SerializeField] Button Btn_Temp;
     [SerializeField] Slider Slider_Temp;
 
+    [SerializeField] MyLauncher Pot_gun;
 
     private void OnEnable()
     {
@@ -30,6 +32,8 @@ public class TempUI : MonoBehaviour
     private void OnClick_TemporalBtn()
     {
         Debug.Log("버튼 눌려짐");
+        ActivateEventArgs temp = new ActivateEventArgs();
+        Pot_gun.Fire(temp);
     }
 
     private void OnValueChanged_Slider(float value)
