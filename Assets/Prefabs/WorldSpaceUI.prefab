@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 5711499083663175795}
   - component: {fileID: 5711499083663175804}
   - component: {fileID: 5711499083663175805}
-  - component: {fileID: 850945141385905733}
+  - component: {fileID: 2361205917718688196}
   m_Layer: 0
   m_Name: WorldSpaceUI
   m_TagString: Untagged
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483647
   m_RaycastTriggerInteraction: 1
---- !u!114 &850945141385905733
+--- !u!114 &2361205917718688196
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1131,7 +1131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5711499083663175807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3697a7cd3a5f9d54da5803226459a987, type: 3}
+  m_Script: {fileID: 11500000, guid: c33868fa39e99764b89cbe8f882043d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Btn_Temp: {fileID: 442937740158680076}
